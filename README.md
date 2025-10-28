@@ -19,11 +19,11 @@ const people = [
 ```javascript
 people.sort(function(a, b) {
     if (a.age < b.age) {
-        return -1;    // 🡅 a должен быть перед b
+        return -1;    
     } else if (a.age > b.age) {
-        return 1;     // 🡇 a должен быть после b
+        return 1;     
     } else {
-        return 0;     // ⏸️ порядок не меняется
+        return 0;     
     }
 });
 ```
